@@ -88,6 +88,8 @@
         </nav>
         @yield('content')
     </div>
+    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <script src="{{ mix('js/app.js') }}" defer></script>
 </body>
 </html>
