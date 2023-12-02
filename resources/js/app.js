@@ -13,9 +13,10 @@ import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 import router from './router';
-
 // fonts mdi
 import "@mdi/font/css/materialdesignicons.css";
+// main css
+import "../css/main.css";
 
 const app = createApp({});
 

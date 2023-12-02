@@ -8,7 +8,12 @@ body {
     direction: rtl;
 }
 
+#main {
+    background-color: #ddd;
+}
+
 /*
+=====================
 header style
 =====================
 */
@@ -37,19 +42,5 @@ header style
 .search_btn {
     position: absolute;
     left: 5px;
-}
-.All_novels {
-    padding: 30px;
-}
-.All_novels .card_post {
-    width: 250px;
-    margin-bottom: 30px;
-}
-.All_novels .post_img img {
-    width: 250px;
-    height: 250px;
-}
-.post_header h3 {
-    font-weight: bold;
-    letter-spacing: 2px;
+    color: #333;
 }
