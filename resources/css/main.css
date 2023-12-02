@@ -1,0 +1,46 @@
+/*
+public style
+=====================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+body {
+    direction: rtl;
+}
+
+#main {
+    background-color: #ddd;
+}
+
+/*
+=====================
+header style
+=====================
+*/
+.home_header {
+    background-color: darkcyan;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.home_header ul li a, .home_header a {
+    color: #fff;
+}
+.home_header .nav-item {
+    padding-right: 20px;
+}
+.home_header ul li a:hover, .home_header a:hover {
+    background-color:seagreen;
+}
+.nav-search {
+    margin-right: auto;
+}
+.search_box {
+    position: relative;
+}
+.search_box input {
+    width: 400px;
+}
+.search_btn {
+    position: absolute;
+    left: 5px;
+    color: #333;
+}

@@ -12,14 +12,13 @@
     <!-- styles -->
     <link rel="stylesheet" href="{{ asset('assets/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.rtl.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/welcome.css') }}">
 
     <!-- Scripts -->
     <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
-<body>
+<body class="bg-blue">
     <div id="app">
         <!-- header section -->
         <nav class="navbar navbar-expand-md navbar-light home_header">
@@ -89,6 +88,8 @@
         </nav>
         @yield('content')
     </div>
+    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <script src="{{ mix('js/app.js') }}" defer></script>
 </body>
 </html>

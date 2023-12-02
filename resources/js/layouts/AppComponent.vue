@@ -1,5 +1,5 @@
 <template>
-    <v-app>
+    <v-app id="main">
         <v-locale-provider rtl>
             <router-view></router-view>
         </v-locale-provider>
@@ -8,7 +8,8 @@
 
 
 <script>
+
 export default {
-    name: "AppComponent"
+    name: "AppComponent",
 }
 </script>
